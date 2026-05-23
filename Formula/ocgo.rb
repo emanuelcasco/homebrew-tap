@@ -1,16 +1,16 @@
 class Ocgo < Formula
   desc "Run Claude Code through an OpenCode Go-compatible Anthropic proxy"
   homepage "https://github.com/emanuelcasco/ocgo"
-  version "0.2.6"
+  version "0.2.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/emanuelcasco/ocgo/releases/download/v0.2.6/ocgo_0.2.6_darwin_arm64.tar.gz"
-      sha256 "c13ff5b27ea5651d03942c443b5b4051035d5782d318758f703aae7c8f9bfa63"
+      url "https://github.com/emanuelcasco/ocgo/releases/download/v0.2.7/ocgo_0.2.7_darwin_arm64.tar.gz"
+      sha256 "46edf59b77be7f6466dc64447816722396f4517c099518a5d4bd46f5213befc0"
     else
-      url "https://github.com/emanuelcasco/ocgo/releases/download/v0.2.6/ocgo_0.2.6_darwin_x86_64.tar.gz"
-      sha256 "6b01aca93805be3baf580e729624fcd4ca04eb02615337b3706cda6a4c599ae4"
+      url "https://github.com/emanuelcasco/ocgo/releases/download/v0.2.7/ocgo_0.2.7_darwin_x86_64.tar.gz"
+      sha256 "ebee8381af79a158a89b737b1d3117f16865d602e5188be83913abbfd9b65bf0"
     end
   end
 
